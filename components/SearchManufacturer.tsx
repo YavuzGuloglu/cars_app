@@ -29,7 +29,7 @@ const SearchManufacturer = ({
         );
 
   return (
-    <div className="searchbar-manufacturer w-full z-4">
+    <div className="searchbar-manufacturer w-full z-30">
       <Combobox value={manufacturer} onChange={setManufacturer}>
         <div className="relative w-full">
           <ComboboxButton className="absolute top-[14px]">

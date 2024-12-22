@@ -42,7 +42,13 @@ const Footer = () => {
       </div>
 
       <div className="flex justify-between items-center flex-wrap mt-10 border-t border-gray-100 sm:px-16 px-6 py-10">
-        <p> @2024 CarHub. All Rights Reserved</p>
+        <p>
+          @2024 CarHub. All Rights Reserved
+          <br />
+          <span className="text-[13px] font-[300]">
+            nay nay production &copy;
+          </span>
+        </p>
 
         <div className="footer__copyrights-link">
           <Link href="/" className="text-gray-500">
